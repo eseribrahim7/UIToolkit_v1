@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/SettingsPanelStyle.uss?fileID=7433441132597879392&amp;guid=dd84d43368ab24344a68842025a2b1f7&amp;type=3#SettingsPanelStyle" />
+    <ui:VisualElement name="SettingsPanelBackground" class="styleSettingsPanelBackground" style="opacity: 0.9; display: flex;">
+        <ui:VisualElement name="SettingsTopLayerBar" class="styleSettingsTopLayerBar">
+            <ui:Label tabindex="-1" text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" class="styleSettingsTopLayerBarLabel" />
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="styleSettingsTopLayerBarExitButton" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SettingsVolume" class="styleSettingsVolumeContainer">
+            <ui:Label tabindex="-1" text="Sound" parse-escape-sequences="true" display-tooltip-when-elided="true" class="styleSettingsVolumeLabelSound" />
+            <ui:Toggle label="Mute" class="styleSettingsVolumeToggleMute" />
+            <ui:Slider label="Volume" high-value="100" direction="Horizontal" inverted="false" value="100" show-input-field="true" class="styleSettingsVolumeSliderVolume" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

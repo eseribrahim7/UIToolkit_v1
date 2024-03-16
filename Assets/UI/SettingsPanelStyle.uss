@@ -1,0 +1,104 @@
+.styleSettingsPanelBackground {
+    flex-grow: 1;
+    background-color: rgb(59, 35, 113);
+    opacity: 0.95;
+    color: rgb(255, 255, 255);
+    display: none;
+}
+
+.styleSettingsTopLayerBar {
+    flex-grow: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    background-color: rgb(28, 55, 118);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.styleSettingsTopLayerBarLabel {
+    left: 30%;
+    font-size: 24px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(166, 166, 166);
+}
+
+.styleSettingsTopLayerBarExitButton {
+    justify-content: space-around;
+    align-self: stretch;
+    cursor: initial;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    background-image: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-4521532143779581420&guid=3f3c45ae591d4b046abddee0653dd9f5&type=3#arrow-right');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    margin-right: 2px;
+    margin-left: 2px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: rgb(255, 0, 0);
+}
+
+.styleSettingsTopLayerBarExitButton:hover {
+    justify-content: space-around;
+    align-self: stretch;
+    cursor: initial;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    background-image: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-4521532143779581420&guid=3f3c45ae591d4b046abddee0653dd9f5&type=3#arrow-right');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    margin-right: 2px;
+    margin-left: 2px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: rgb(255, 0, 0);
+    scale: 1.05 1.05;
+}
+
+.styleSettingsVolumeContainer {
+}
+
+.styleSettingsVolumeLabelSound {
+    -unity-font-style: bold;
+    font-size: 18px;
+}
+
+.styleSettingsVolumeToggleMute {
+    -unity-font-style: bold;
+}
+
+.styleSettingsVolumeSliderVolume {
+    align-self: stretch;
+    justify-content: space-around;
+    align-items: stretch;
+    -unity-font-style: bold;
+}

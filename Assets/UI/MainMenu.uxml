@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=1c343b4a434a0a143ac0975d56945936&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement name="MainMenuBackground" class="styleMainMenuBackground">
+        <ui:VisualElement name="MainMenuContainer" class="styleMainMenuContainer" style="flex-direction: column; height: 300px; top: 374px; left: 674px; flex-grow: 1;">
+            <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Play" class="styleButtonPlay styleButtonShape" />
+            <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Settings" class="styleButtonSettings styleButtonShape" />
+            <ui:Button text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Quit" class="styleButtonShape styleButtonQuit" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

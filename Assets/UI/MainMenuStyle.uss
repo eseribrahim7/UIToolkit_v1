@@ -1,0 +1,85 @@
+.styleMainMenuBackground {
+    flex-grow: 1;
+    background-color: rgb(32, 71, 128);
+}
+
+.styleMainMenuContainer {
+    flex-grow: 1;
+    justify-content: center;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.styleButtonPlay {
+}
+
+.styleButtonSettings {
+}
+
+.styleButtonQuit {
+}
+
+.styleButtonShape {
+    font-size: 50px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-left-color: rgb(38, 38, 38);
+    border-right-color: rgb(38, 38, 38);
+    border-top-color: rgb(38, 38, 38);
+    border-bottom-color: rgb(38, 38, 38);
+    background-color: rgb(255, 255, 255);
+}
+
+.styleButtonShape:hover {
+    font-size: 50px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-left-color: rgb(245, 245, 245);
+    border-right-color: rgb(245, 245, 245);
+    border-top-color: rgb(245, 245, 245);
+    border-bottom-color: rgb(245, 245, 245);
+    background-color: rgb(30, 156, 111);
+    transition-timing-function: ease-out-elastic;
+    transition-delay: 0s;
+    transition-duration: 0s;
+    scale: 1.1 1.1;
+    color: rgb(202, 202, 202);
+    -unity-font-style: bold;
+}
